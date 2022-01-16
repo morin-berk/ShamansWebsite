@@ -18,7 +18,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'My first Webpack project',
-            template: './src/index.html'
+            template: './src/forest.html'
         })
     ]
 };
