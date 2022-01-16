@@ -1,6 +1,8 @@
 node_modules/
 # Project exclude paths
 /dist/
+.idea/
+/.idea/vcs.xml
 /.idea/misc.xml
 /.idea/modules.xml
 /.idea/ShamansWebsite.iml
