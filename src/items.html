@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Предметы</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles_o.css">
+</head>
+<body>
+    <nav class = "navbar">
+        <a href="https://dh.itmo.ru/">
+            <img class="navbar__img" src="./images/dh_logo.png" alt="dh logo">
+        </a>
+        <ul>
+            <li><a href="main.html" class="header__link">Главная</a></li>
+            <li><a href="game/shamans_game.html" class="header__link">Игра</a></li>
+            <li><a href="items.html" class="header__link">Предметы</a></li>
+            <li><a href="forest.html" class="header__link">Лес</a></li>
+            <li><a href="contacts.html" class="header__link">О нас</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class = "content">
+            <div class = "content_citation1">
+                <p>“Птичьи перья встречаются почти повсеместно при описаниях шаманской одежды. Прежде всего, сама конструкция одежды стремится к тому, чтобы как можно точнее подражать птичьим формам.” (М. Элиаде)</p>
+                <div class = "teepee_image"><img src = "images/teepee.jpg" alt = "Чум"></div>
+            <div class = "content_citation2">
+            <p><img src = "images/eagle.png" alt = "Орел" class = righteagle>
+            Боги послали к людям орла, чтобы тот помогал им с лечением. Когда орел прилетел к людям, те не смогли его понять. Орел вернулся к богам, прося их дать ему дар речи или же переложить его обязанности на какого-то человека. Боги велели ему отправляться обратно и наделить силой человека. Орел полетел, увидел под деревом женщину и вступил с ней в связь. По одной версии, она родила первого шамана. По другой — сама стала первой шаманкой.
+            </p>
+            </div>
+            <p style="padding-top: 2rem; text-align: right;"><img src = "images/caftan.png" alt = "Кафтан" class = leftcaftan>
+                "Ритуальный костюм был знаком отличия (...). По набору нашивок и подвесок было ясно, новичок это или опытный специалист, приобретший много духов-помощников. (...) У алтайцев благодарные пациенты подвязывали к шаманскому кафтану (...) ленты или платки, позволявшие судить о силе шамана. (...)
+                </p>
+            <div class = "conten_hat">
+                <p style = "text-align: right;">Как и прочие части костюма, шаманская шапка также воссоздает образ птиц и животных. Иногда кеты и маньчжуры прикрепляли на железные венцы вместо оленьих рогов изображение птицы, а долганы — на мягкие венцы. Такой головной убор алтайских шаманов назывался птица-шапка или "куш пёрюк". (В. Н. Басилов)</p>
+                <div class = "hat_image"><img src = "images/hat.png" alt = "Шапка"></div>
+                <div class = "popup" onclick = "myFunction ();">Феномен почитания орла шаманами дал развитие множеству вариаций орнитологической символики.
+                <span class = "popuptext" id = "myPopup">
+                    "В начале ХХ в. птичьи черты обычно придавались шапке лишь пучком перьев, пришитых по ее верху. Но в конце XIX в. (...) слышал, что прежде у телеутов шаманский головной убор делали из цельной шкурки филина, вместе с крыльями, а иногда и с головой. У хакасов некоторые шаманы пришивали на переднюю сторону обрядовой шапки голову, а на верхнюю — хвост филина. В Хабаровском музее есть шаманский головной убор эвенков из цельной шкуры журавля. (В. Н. Басилов)
+                </span>
+            </div>
+            <script>
+                function myFunction () {
+                    var popup = document.getElementById("myPopup");
+                    popup.classList.toggle("show");
+                }
+            </script>
+            </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Contact us: shaman@gmail.com
+        </footer>
+</body>
+</html>

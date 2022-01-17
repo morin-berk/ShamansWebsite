@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.navbar{
+    background-color: whitesmoke;
+    color: black;
+    border-bottom: 0.5px solid gray;
+    width: 100%;
+    line-height: 80px;
+    height: 80px;
+    font-size: 18px;
+    padding: 0 30px;
+    top: 0;
+    left: 0;
+    font-family: 'Old Standard TT', serif;
+    position: fixed
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a.nav-logo{
+    float: left;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 30px;
+}
+
+.navbar__img {
+    background-color: transparent;
+    height: 70px;
+}
+
+.navbar ul{
+    float: right;
+    list-style: none;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 50px;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    display: block;
+    text-align: center;
+    min-width: 120px;
+    padding: 0 30px;
+}
+
+.navbar ul li a:hover{
+    background-color: gray;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content{
+    text-align: center;
+    font-family: 'Old Standard TT', serif;
+    font-size: 20px;
+    margin: 10% auto;
+    color: black;
+    width: 700px;
+    padding-bottom: 1rem;
+    margin-bottom: 5%;
+}
+
+h1{
+    color: black;
+    font-style: bold;
+    font-size: 30px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    letter-spacing: 1px;
+}
+
+p{  
+    padding-bottom: 1rem;
+}
+
+.content_text_igra{
+    font-size: 20px;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.content_text_items1{
+    font-size: 20px;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.content_text_contacts{
+    font-size: 20px;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+footer{
+    font-family: 'Old Standard TT', serif;
+    left: 0;
+    bottom: 0;
+    line-height: 50px;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.content_citation1{
+    font-family: 'Old Standard TT', serif;
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+    text-align: center;
+}
+
+.content_citation2{
+    font-family: 'Old Standard TT', serif;
+    font-size: 20px;
+    font-style: normal;
+    color: black;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+.righteagle{
+    float: right;
+    margin: 7px 0 7px 7px;
+   }
+
+.teepee_image{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1rem;
+}
+
+.leftcaftan{
+    float: left;
+}
+
+.popup{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-style: normal;
+}
+
+.popuptext{
+    font-style: italic;
+}
+
+.popup .popuptext{
+    visibility: hidden;
+    width: 500px;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+.popup .popuptext::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.popup .show{
+    visibility: visible;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
